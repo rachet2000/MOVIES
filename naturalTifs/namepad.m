@@ -1,0 +1,1 @@
+function [outname]=namepad(num,pad);pad=num2str(pad);if (num<10)&(num>=0) outname=strcat(num2str(num));   elseif (num<100)&(num>=10) outname=strcat(num2str(num));   elseif (num<1000)&(num>=100) outname=strcat(num2str(num));   else outname=num2str(num2str(num)); end
